@@ -1,0 +1,60 @@
+{
+  "system": {
+    "emitters": [
+      {
+        "billboard_origin": "center",
+        "billboard_type": "axial_self",
+        "category": "1 - Filament",
+        "depth": 0.0,
+        "diffuse": "$GAME_DATA/Particles/Textures/Glow/glow_smokeglow01.tga",
+        "direction_type": "shape",
+        "duration": 0.02,
+        "effects": [
+          {
+            "control_point": [
+              [0.0, [1.0, 0.98, 0.92, 1.0]],
+              [0.5, [1.0, 0.7, 0.3, 1.0]],
+              [1.0, [0.0, 0.0, 0.0, 0.0]]
+            ],
+            "guid": 1,
+            "name": "Color"
+          },
+          {
+            "control_point": [
+              [0.0, 0.85],
+              [1.0, 0.4]
+            ],
+            "guid": 2,
+            "max_scale": 1.0,
+            "name": "Scale"
+          }
+        ],
+        "cone_angle": 0.0,
+        "cone_radius": 0.0,
+        "emission_mode": "burst",
+        "emission_rate": 1000,
+        "force_vector": [0.0, 0.0, 0.0],
+        "friction": 0.0,
+        "glow": true,
+        "glow_exposure": 18.0,
+        "glow_strength": 1.0,
+        "guid": 0,
+        "height": [0.3, 0.06],
+        "keep_local": true,
+        "max_particles": 1,
+        "name": "Jet Filament",
+        "rotation": [0.0, 0.0],
+        "rotation_axis": [1.0, 0.0, 0.0],
+        "scene_blend": "addative",
+        "shadows": false,
+        "soft_particles_bias": 256,
+        "sort_offset": 3.0,
+        "type": "cone",
+        "time_to_live": [0.16, 0.04],
+        "velocity": [0.6, 0.0],
+        "width": [0.05, 0.015]
+      }
+    ],
+    "min_quality": "low"
+  }
+}

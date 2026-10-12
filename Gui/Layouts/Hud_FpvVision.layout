@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- night vision overlay, the actual effect is done with sm.render -->
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="Root" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+
+        <!-- keep it faint -->
+        <Widget type="Widget" skin="WhiteSkin" name="VisionPhosphor" position_real="0 0 1 1">
+            <Property key="Colour" value="0.10 1.00 0.25" />
+            <Property key="Alpha" value="0.08" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- set by cl_applyVision -->
+        <Widget type="TextBox" skin="TextBox" name="VisionLabel" position_real="0.30 0.115 0.40 0.04">
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextColour" value="0.85 1 0.85" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.75" />
+            <Property key="Caption" value="" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

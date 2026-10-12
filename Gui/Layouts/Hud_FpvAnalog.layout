@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- PG-7 analog camera, images are swapped from fpv_controller_analog.lua -->
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="Root" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Base" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/base.png" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Grain" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/clear.png" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Grain2" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/clear.png" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Motor" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/clear.png" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="Visible" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Glitch" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/clear.png" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="Visible" value="false" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" align="Stretch" name="Static" position_real="0 0 1 1">
+            <Property key="ImageTexture" value="$CONTENT_DATA/Gui/Images/Analog/clear.png" />
+            <Property key="NeedMouse" value="false" />
+            <Property key="Visible" value="false" />
+        </Widget>
+    </Widget>
+</MyGUI>

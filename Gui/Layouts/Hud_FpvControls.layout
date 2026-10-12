@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- controls help, filled in by cl_applyHelp -->
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="Root" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+
+        <!-- one background per row count, height = 0.063 + rows * 0.024 -->
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg4" position_real="0.010 0.045 0.248 0.159">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg5" position_real="0.010 0.045 0.248 0.183">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg6" position_real="0.010 0.045 0.248 0.207">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg7" position_real="0.010 0.045 0.248 0.231">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg8" position_real="0.010 0.045 0.248 0.255">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg9" position_real="0.010 0.045 0.248 0.279">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg10" position_real="0.010 0.045 0.248 0.303">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Widget" skin="WhiteSkin" name="HelpBg11" position_real="0.010 0.045 0.248 0.327">
+            <Property key="Colour" value="0.05 0.06 0.08" />
+            <Property key="Alpha" value="0.60" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- SM_TextLabel because it has lower case and "/" in every language, the big fonts don't -->
+        <Widget type="TextBox" skin="TextBox" name="HelpTitle" position_real="0.020 0.058 0.234 0.034">
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextColour" value="1 0.82 0.30" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.75" />
+            <Property key="Caption" value="CONTROLS" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- keys column (filled from Lua) -->
+        <Widget type="TextBox" skin="TextBox" name="KeysCol" position_real="0.020 0.100 0.078 0.265">
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextColour" value="0.55 0.85 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.75" />
+            <Property key="Caption" value="" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- action column (filled from Lua) -->
+        <Widget type="TextBox" skin="TextBox" name="DescCol" position_real="0.101 0.100 0.152 0.265">
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="FontName" value="SM_TextLabel" />
+            <Property key="TextColour" value="0.92 0.92 0.92" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.75" />
+            <Property key="Caption" value="" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

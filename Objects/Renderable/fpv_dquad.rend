@@ -1,0 +1,18 @@
+{
+    "lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Objects/Mesh/fpv_dquad.fbx",
+            "subMeshMap": {
+                "waike":    { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_waike.png",    "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] },
+                "jiangye":  { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_jiangye.png",  "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] },
+                "jibi":     { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_jibi.png",     "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] },
+                "jishen_2": { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_jishen_2.png", "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] },
+                "boli":     { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_boli.png",     "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] },
+                "neibu":    { "material": "SkelAnimDifAsg", "textureList": [ "$CONTENT_DATA/Textures/fpv_dquad_neibu.png",    "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga" ] }
+            },
+            "animationList": [
+                { "name": "Armature|spin", "file": "$CONTENT_DATA/Objects/Mesh/fpv_dquad.fbx" }
+            ]
+        }
+    ]
+}

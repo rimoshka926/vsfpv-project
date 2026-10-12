@@ -1,0 +1,152 @@
+{
+    "partList": [
+        {
+            "uuid": "c9e2b1b3-4f9b-4e8c-8c7a-9a8b7c6d5e4f",
+            "name": "fpv_drone",
+            "renderable": "$CONTENT_DATA/Objects/Renderable/fpv_drone.rend",
+            "color": "ff9d00",
+            "box": {
+                "x": 2.0,
+                "y": 2.74,
+                "z": 3.19
+            },
+            "density": 14.3,
+            "friction": 0.5,
+            "restitution": 0.0,
+            "interactable": true,
+            "scripted": {
+                "classname": "FpvDrone",
+                "filename": "$CONTENT_DATA/Scripts/fpv_drone.lua"
+            },
+            "rotationSet": "PropFull"
+        },
+        {
+            "uuid": "188d229e-24d7-4033-9d81-510f0dffe0bf",
+            "name": "fpv_mavic",
+            "renderable": "$CONTENT_DATA/Objects/Renderable/fpv_mavic.rend",
+            "color": "cccccc",
+            "box": {
+                "x": 2.06,
+                "y": 1.0,
+                "z": 2.07
+            },
+            "density": 14.43,
+            "friction": 0.5,
+            "restitution": 0.02,
+            "interactable": true,
+            "scripted": {
+                "classname": "FpvDrone",
+                "filename": "$CONTENT_DATA/Scripts/fpv_drone.lua"
+            },
+            "rotationSet": "PropFull"
+        },
+        {
+            "uuid": "0066004c-5ff6-40c6-9531-6a2f5022ab04",
+            "name": "fpv_dquad",
+            "renderable": "$CONTENT_DATA/Objects/Renderable/fpv_dquad.rend",
+            "color": "ffffff",
+            "box": {
+                "x": 1.39,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "density": 36.66,
+            "friction": 0.5,
+            "restitution": 0.02,
+            "interactable": true,
+            "scripted": {
+                "classname": "FpvDrone",
+                "filename": "$CONTENT_DATA/Scripts/fpv_drone.lua"
+            },
+            "rotationSet": "PropFull"
+        },
+        {
+            "uuid": "b7e4c2a9-6f31-4d85-9a2c-3e8f1d7b50a4",
+            "name": "fpv_controller_lockon",
+            "renderable": "$CONTENT_DATA/Objects/Renderable/fpv_transmitter_part.rend",
+            "color": "3a3d42",
+            "box": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "density": 10.0,
+            "friction": 0.5,
+            "restitution": 0.1,
+            "interactable": true,
+            "scripted": {
+                "classname": "FpvController",
+                "filename": "$CONTENT_DATA/Scripts/fpv_controller.lua",
+                "data": {},
+                "seat": {
+                    "bones": [
+                        {
+                            "name": "Hips",
+                            "offset": {
+                                "x": 0.0,
+                                "y": 1.5,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "name": "Spine",
+                            "offset": {
+                                "x": 0.0,
+                                "y": 2.2,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "name": "Spine2",
+                            "offset": {
+                                "x": 0.0,
+                                "y": 3.15,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "name": "LeftArm",
+                            "freeRotation": true,
+                            "offset": {
+                                "x": 0.9,
+                                "y": 2.6,
+                                "z": 0.1
+                            }
+                        },
+                        {
+                            "name": "RightArm",
+                            "freeRotation": true,
+                            "offset": {
+                                "x": -0.9,
+                                "y": 2.6,
+                                "z": 0.1
+                            }
+                        },
+                        {
+                            "name": "LeftForeArm",
+                            "freeRotation": true,
+                            "offset": {
+                                "x": 0.62,
+                                "y": 2.5,
+                                "z": 1.21
+                            }
+                        },
+                        {
+                            "name": "RightForeArm",
+                            "freeRotation": true,
+                            "offset": {
+                                "x": -0.62,
+                                "y": 2.5,
+                                "z": 1.21
+                            }
+                        }
+                    ],
+                    "ragdollFile": "$CONTENT_DATA/Character/fpv_stand_ragdoll.json",
+                    "enterAudio": "Seat seated",
+                    "exitAudio": "Seat unseated"
+                }
+            },
+            "rotationSet": "PropFull"
+        }
+    ]
+}

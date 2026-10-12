@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- OSD, values are set from cl_osd -->
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="Root" position_real="0 0 1 1">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+
+        <!-- Speed -->
+        <Widget type="TextBox" skin="TextBox" name="SpeedValue" position_real="0.045 0.835 0.24 0.08">
+            <Property key="TextAlign" value="Left Bottom" />
+            <Property key="FontName" value="SM_NumberHuge" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="0" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SpeedLabel" position_real="0.047 0.915 0.24 0.03">
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="KM/H" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- Altitude -->
+        <Widget type="TextBox" skin="TextBox" name="AltValue" position_real="0.715 0.835 0.24 0.08">
+            <Property key="TextAlign" value="Right Bottom" />
+            <Property key="FontName" value="SM_NumberHuge" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="0" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="AltLabel" position_real="0.713 0.915 0.24 0.03">
+            <Property key="TextAlign" value="Right Top" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="ALT  M" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- Throttle -->
+        <Widget type="TextBox" skin="TextBox" name="ThrValue" position_real="0.40 0.855 0.20 0.06">
+            <Property key="TextAlign" value="HCenter Bottom" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="0%" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="ThrLabel" position_real="0.398 0.915 0.20 0.03">
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="THROTTLE" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- Mavic flight mode, shown instead of the throttle -->
+        <Widget type="TextBox" skin="TextBox" name="ModeValue" position_real="0.40 0.045 0.20 0.05">
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="NORMAL" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="ModeLabel" position_real="0.398 0.098 0.20 0.03">
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="FontName" value="SM_LabelTiny" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="FLIGHT MODE   1 2 3" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- RTH distance, or short messages like HOME SET -->
+        <Widget type="TextBox" skin="TextBox" name="RthValue" position_real="0.30 0.150 0.40 0.045">
+            <Property key="TextAlign" value="HCenter Top" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+
+        <!-- Zoom, only while zoomed in -->
+        <Widget type="TextBox" skin="TextBox" name="ZoomValue" position_real="0.72 0.045 0.24 0.05">
+            <Property key="TextAlign" value="Right Top" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextColour" value="1 1 1" />
+            <Property key="TextShadow" value="true" />
+            <Property key="TextShadowColour" value="0 0 0 0.65" />
+            <Property key="Caption" value="1.0x" />
+            <Property key="Visible" value="false" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

@@ -1,0 +1,18 @@
+{
+    "c9e2b1b3-4f9b-4e8c-8c7a-9a8b7c6d5e4f": {
+        "title": "PG-7 Kamikaze",
+        "description": "Heavy FPV drone with an RPG-7 warhead on it. Goes off on impact, so it only flies once. Has night vision. Place it within 15 m of an FPV Transmitter."
+    },
+    "188d229e-24d7-4033-9d81-510f0dffe0bf": {
+        "title": "Mavic 3 Cine",
+        "description": "Camera drone that levels itself. Let go of the controls and it stops and hovers, good for learning to fly. Three flight modes, 7x zoom and Return to Home."
+    },
+    "0066004c-5ff6-40c6-9531-6a2f5022ab04": {
+        "title": "DJI FPV",
+        "description": "Fast acro quad. The stick controls rotation speed, not angle, just like a real FPV drone. It holds whatever angle you leave it at. Hard to land."
+    },
+    "b7e4c2a9-6f31-4d85-9a2c-3e8f1d7b50a4": {
+        "title": "FPV Transmitter",
+        "description": "FlySky FS-TH9X radio. Put it on the ground and press (E) to fly the nearest drone within 15 m. It remembers that drone, so you can walk away and come back to it. The controls are listed on screen while you fly."
+    }
+}

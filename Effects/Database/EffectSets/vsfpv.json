@@ -1,0 +1,188 @@
+{
+    "VSFPV - Blank": {
+        "maxInstances": 64,
+        "parameterList": {},
+        "effectList": []
+    },
+    "VSFPV - JetTrail": {
+        "maxInstances": 256,
+        "parameterList": {},
+        "effectList": [
+            {
+                "type": "particle",
+                "name": "p_jettrail",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "attached": false,
+                "delay": 0.0
+            }
+        ]
+    },
+    "VSFPV - Spall": {
+        "maxInstances": 128,
+        "parameterList": {},
+        "effectList": [
+            {
+                "type": "particle",
+                "name": "p_spall",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "attached": false,
+                "delay": 0.0
+            }
+        ]
+    },
+    "VSFPV - HeatJet": {
+        "maxInstances": 32,
+        "parameterList": {
+            "size": 0.5,
+            "color": "ffe8b0",
+            "radius": 14.0,
+            "intensity": 9.0,
+            "shakeStrength": 1.2,
+            "shakeRadius": 45.0
+        },
+        "parameterCurves": {
+            "radius": {
+                "timeline": [
+                    {
+                        "time": 0.0,
+                        "value": 0.0
+                    },
+                    {
+                        "time": 0.075,
+                        "value": 14.0
+                    },
+                    {
+                        "time": 0.4375,
+                        "value": 0.0
+                    }
+                ]
+            },
+            "intensity": {
+                "timeline": [
+                    {
+                        "time": 0.0,
+                        "value": 9.0
+                    },
+                    {
+                        "time": 0.225,
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        "effectList": [
+            {
+                "type": "particle",
+                "name": "p_heatjet",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "attached": false,
+                "delay": 0.0
+            },
+            {
+                "type": "audio",
+                "name": "Gas Explosion",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "parameters": [
+                    "size"
+                ],
+                "delay": 0.0
+            },
+            {
+                "type": "audio",
+                "name": "event:/weapons/chemcannon/chem_explode",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "delay": 0.0
+            },
+            {
+                "type": "pointLight",
+                "name": "",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.5
+                },
+                "parameters": [
+                    "color",
+                    "radius",
+                    "intensity"
+                ],
+                "duration": 0.5,
+                "delay": 0.0
+            },
+            {
+                "type": "cameraShake",
+                "name": "",
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "parameters": [
+                    "shakeStrength",
+                    "shakeRadius"
+                ],
+                "duration": 0.375,
+                "delay": 0.0
+            }
+        ]
+    },
+    "VSFPV - Snd ElEngine2": {
+        "maxInstances": 256,
+        "parameterList": {
+            "rpm": 0.0,
+            "load": 0.5
+        },
+        "effectList": [
+            {
+                "type": "audio",
+                "audio": [
+                    "event:/vehicle/elengines/elengine02"
+                ],
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "delay": 0.0,
+                "parameters": [
+                    "rpm",
+                    "load"
+                ]
+            }
+        ]
+    },
+    "VSFPV - TransmitterHeld": {
+        "effectList": [
+            {
+                "type": "renderable",
+                "name": "$CONTENT_DATA/Objects/Renderable/fpv_transmitter.rend",
+                "offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        ],
+        "hideInFirstPerson": true
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Objects/Mesh/fpv_drone.fbx",
+            "subMeshMap": {
+                "drone": {
+                    "material": "SkelAnimDifAsgNor",
+                    "textureList": [
+                        "$CONTENT_DATA/Textures/fpv_drone_dif.jpg",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+                        "$CONTENT_DATA/Textures/fpv_drone_nor.png"
+                    ]
+                }
+            },
+            "animationList": [
+                {
+                    "name": "Armature|spin",
+                    "file": "$CONTENT_DATA/Objects/Mesh/fpv_drone.fbx"
+                }
+            ]
+        }
+    ]
+}

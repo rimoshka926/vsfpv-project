@@ -1,0 +1,18 @@
+{
+    "lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Objects/Mesh/fpv_transmitter.fbx",
+            "pose0": "$CONTENT_DATA/Objects/Mesh/fpv_transmitter_hidden.fbx",
+            "subMeshMap": {
+                "fpv_transmitter": {
+                    "material": "PoseAnimDifAsgNor",
+                    "textureList": [
+                        "$CONTENT_DATA/Textures/fpv_transmitter_dif.png",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+                        "$CONTENT_DATA/Textures/fpv_transmitter_nor.png"
+                    ]
+                }
+            }
+        }
+    ]
+}

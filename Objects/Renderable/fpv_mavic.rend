@@ -1,0 +1,35 @@
+{
+    "lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Objects/Mesh/fpv_mavic.fbx",
+            "subMeshMap": {
+                "material_0": {
+                    "material": "SkelAnimDifAsgNor",
+                    "textureList": [
+                        "$CONTENT_DATA/Textures/fpv_mavic_dif.png",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+                        "$CONTENT_DATA/Textures/fpv_mavic_nor.png"
+                    ]
+                },
+                "material_1": {
+                    "material": "SkelAnimDifAsgNor",
+                    "textureList": [
+                        "$CONTENT_DATA/Textures/fpv_mavic_dif.png",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_concrete01_asg.tga",
+                        "$CONTENT_DATA/Textures/fpv_mavic_nor.png"
+                    ]
+                }
+            },
+            "animationList": [
+                {
+                    "name": "Armature|spin",
+                    "file": "$CONTENT_DATA/Objects/Mesh/fpv_mavic.fbx"
+                },
+                {
+                    "name": "Armature|gimbal",
+                    "file": "$CONTENT_DATA/Objects/Mesh/fpv_mavic.fbx"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "FPV drones. Put a transmitter on the ground and fly a drone from its own camera. Comes with a DJI FPV, a Mavic 3 Cine and a PG-7 kamikaze drone.",
+   "fileId" : 3803749604,
+   "localId" : "1ba077a5-fa4f-49f9-b37d-370da995647b",
+   "name" : "VSFPV PROJECT",
+   "type" : "Blocks and Parts",
+   "version" : 2
+}

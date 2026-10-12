@@ -1,0 +1,20 @@
+VSFPV PROJECT - model credits
+
+The drone and transmitter models are from Sketchfab, used under Creative Commons
+Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). I rescaled, rotated and
+re-exported them so they work in Scrap Mechanic.
+
+  "RC Controller" by gorzi
+  https://sketchfab.com/3d-models/rc-controller-b604ff776f9a44ce89e2e2a3c2eae9a5
+
+  "FPV Drone" by Jeyhun1985
+  https://sketchfab.com/3d-models/fpv-drone-0294037f390a4351926c11caf3e5c43e
+
+  "DJI Mavic 3" by llirikslon
+  https://sketchfab.com/3d-models/dji-mavic-3-c5a5abae1dea468ab73b1bdc7d616fa6
+
+  "DJI FPV" by polyman Studio
+  https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a
+
+The meshes in Objects/Mesh and the textures in Textures that came with them stay under
+CC BY 4.0. Everything else in the mod is mine and is MIT licensed, see LICENSE.
