@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-19
+
+- License changed from MIT to GPL-3.0-or-later. The art made for the mod is CC BY-SA 4.0, the models keep CC BY 4.0
+
 ## 1.4 - 2026-10-12
 
 - An armed PG-7 no longer goes off when it flies out of the loaded area

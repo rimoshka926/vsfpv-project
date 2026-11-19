@@ -75,4 +75,4 @@ Models from Sketchfab, CC BY 4.0, modified to work in the game:
 
 ## License
 
-MIT, see [LICENSE](LICENSE). The models and their textures stay under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see `Credits.txt`.
+GPL-3.0-or-later, see [LICENSE](LICENSE). Versions up to 1.4 came out under MIT. The models and their textures stay under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and the art made for the mod is [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), see `Credits.txt`.
